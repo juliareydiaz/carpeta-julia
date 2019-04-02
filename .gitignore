@@ -1,0 +1,4 @@
+#excluidos una carpta
+node_modules/
+#excluimos los ficheros correpndientes al patron (extension)
+*.log
