@@ -1,15 +1,23 @@
-body{.conten warpper background-color: bisque; }
- 
-   .h1 {font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;}
- .conten-wrapper
-  { margin-left:2rem;
-  margin-ringht:2rem;
+body {
+   background-color: bisque;
 }
 
-.verde{background-color:chartreuse}
+.h1 {
+   font-size: 2em;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+.content-wrapper {
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+
+.verde {
+   color: darkgreen;
+}
+© 2019 GitHub, Inc.
     
