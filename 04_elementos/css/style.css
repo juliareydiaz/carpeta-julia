@@ -20,9 +20,18 @@ body {
    color: darkgreen;
 }
 
-img {
+img, embed {
    width: 45%;
 }
+figure {
+   margin: 0%;
+   padding: 0%;
+}
+video{
+    width: 100%;
+   }
+
+
 © 2019 GitHub, Inc.
 Terms
 Privacy
