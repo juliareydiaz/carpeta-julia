@@ -1,0 +1,21 @@
+
+/*selector descendientes:operadores es el espacio*/
+
+
+  section p {color: brown;
+}
+
+  /*selector de hijo operador > */
+  section>p {
+      color: darkgreen
+  }
+ 
+  
+
+ /*selector de hermanos alt gr 4 espacio ~ (virgulill) */
+  div~p { color: darkblue}
+
+  /* selector de hermanos adyacentes:operador +*/
+  div+p {
+    color: darkgoldenrod;
+} 

@@ -1,0 +1,35 @@
+/*selector de etiqueta y agrupados*/ 
+
+h1,h2{
+    color: brown;
+}
+h1{
+    front-size: zrem
+}
+h2{front-size:1 zrem 
+}
+
+p{
+    color: darkgreen;
+
+    }
+    /*selectores de id buena practica: nose usan*/
+
+    #po1{ 
+        color: crimson,
+    }
+    /*selectoresde clase*/
+
+    .resaltado{
+        color: blue;
+    }
+    /*selectores de atributos*/
+
+    {name="nombre"} {
+        color: burlywood
+    }
+
+    {:required}
+    {
+        border-color: blue;
+    }
