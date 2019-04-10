@@ -1,1 +1,1 @@
-console. log("hola mundo desde un fichero")
+console.log('Hola mundo desde un fichero')
