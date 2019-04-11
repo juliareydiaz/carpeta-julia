@@ -1,35 +1,42 @@
-/*selector de etiqueta y agrupados*/ 
+/* Selector de etiqueta  y agruados */
 
-h1,h2{
+h1, h2 {
     color: brown;
 }
-h1{
-    front-size: zrem
-}
-h2{front-size:1 zrem 
+
+h1 { 
+    font-size: 2rem;
 }
 
-p{
+h2 {
+    font-size: 1.5rem
+}
+
+
+p {
     color: darkgreen;
+}
 
-    }
-    /*selectores de id buena practica: nose usan*/
+/* Selectores de id 
+    Buena practica: NO SE USAN
+*/
 
-    #po1{ 
-        color: crimson,
-    }
-    /*selectoresde clase*/
+#p01 {
+    color: crimson;
+}
 
-    .resaltado{
-        color: blue;
-    }
-    /*selectores de atributos*/
+/* Selectores de clase */
 
-    {name="nombre"} {
-        color: burlywood
-    }
+.resaltado {
+    color: darkblue;
+}
 
-    {:required}
-    {
-        border-color: blue;
-    }
+/* Selectores de atributo */ 
+
+[name="nombre"] {
+   background-color: bisque
+}
+
+[required] {
+    border-color:  brown
+}
