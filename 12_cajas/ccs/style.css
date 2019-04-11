@@ -1,0 +1,36 @@
+#{
+    box-sizing: border-box; 
+  
+}
+body¨{  
+    margin: 0%;
+    padding: 0;
+}
+
+
+.cuadrados{
+    width: 18%;
+    float: left;
+    margin:  calc(calc(100%-calc(18%*5)) /10) ;
+    padding: 1rem;
+    background-color: coral;
+    border: 1px solid;
+    width: 15%;
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+.real {
+    margin: 2rem;
+}
+
+.real p
+    float: left;
+   width: 33.33% ;
+   padding-left: 1.5rem 
+
+
+.real p:not(:frist-child) {
+   padding-left: 1.5rem;
+}
