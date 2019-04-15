@@ -1,36 +1,34 @@
-#{
-    box-sizing: border-box; 
-  
+* {
+    box-sizing: border-box;
 }
-body¨{  
-    margin: 0%;
+
+body {
+    margin: 0;
     padding: 0;
 }
-
-
-.cuadrados{
+.cuadrados p {
     width: 18%;
     float: left;
-    margin:  calc(calc(100%-calc(18%*5)) /10) ;
+    margin: calc(calc(100% - calc(18%*5)) / 10);
     padding: 1rem;
     background-color: coral;
-    border: 1px solid;
-    width: 15%;
-    float: left;
+    border: 1px solid; 
 }
+
 .clearfix {
     clear: both;
 }
+
 .real {
     margin: 2rem;
 }
 
-.real p
+.real p {
     float: left;
-   width: 33.33% ;
-   padding-left: 1.5rem 
-
-
-.real p:not(:frist-child) {
-   padding-left: 1.5rem;
+    width: 33.33%;
 }
+
+.real p:not(:first-child) {
+    padding-left: 1.5rem;
+}
+ 

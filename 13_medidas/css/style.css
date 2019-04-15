@@ -1,17 +1,14 @@
-section{
-    font-size:0.9em;
+section {
+    font-size: 0.8em;
 }
+
 div {
-    fort-size:0.8em;
+    font-size: 0.8em
 }
 
-
-
-p{ 
-    font-family:Arial,hevetica, sans_serif;
-    font-size:0.9rem;
-    /*font-size:16px;*/
-    padding:2rem;
-
-
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    /* font-size: 16px; */
+    padding: 2em;
 }

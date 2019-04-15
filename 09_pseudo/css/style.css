@@ -1,54 +1,59 @@
-p {
-    font-size: 4rem;
-    
-}
-
-
-
-
-
-
-section>p::first-letter{
+section>p::first-letter {
     font-size: 4rem;
 }
-aside p::first-line{
+
+aside p::first-line {
     font-size: 1.1rem;
     font-weight: bold;
+}
 
+section div p::before {
+    content: "📙"
 }
-section div p::before{
-    content: "!📙!"
-}
-p:harver {
+
+p:hover {
     color: brown;
 }
+
 a:visited {
-    color: blue;
+    color: chocolate
 }
 
-/*section p:nth-child(1) {
-    color: blue;
-}*/
-
+/* section p:nth-child(1) {
+    color: blue
+} */
 
 section p:nth-of-type(even) {
-    color: blue;
-}
-/*display:inline;*/
-/* dody{
-    font-family: 'Lato', sans-serif;
-    
-} ejemplo de herencia la fuente se hereda el brode no 
-*/
-
-dody{
-    font-family: 'Lato', sans-serif;
-    border: 1px solid    
+    color: blue
 }
 
-header{ 
+/* * {
+    display: inline;
+}
+ */
+
+/* Herencia: 
+    - la fuente si se hereda
+    - el borde no dse hereda 
+*/ 
+
+body {
+    font-family: 'Lato', 'Lucida',  sans-serif;
+    border: 1px solid
+} 
+
+/* * {
+    font-family: 'Lato', 'Lucida',  sans-serif;
+    border: 1px solid
+} */
+
+header {
     font-family: 'Righteous', cursive;
 }
+
+
+
+
 
 
 
