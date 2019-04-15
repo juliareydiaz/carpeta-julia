@@ -1,61 +1,103 @@
+
+#, #::after;#::before;#:after;#:before ;{
+  box-sizing: border-box
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Dokdo sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
-
 .main-header {
   background-color: brown;
   color: bisque;
   padding: 2rem;
-  font-family: Montserrat
+  font-family: 'Permanent Marker', cursive;
 }
-.main-header di
-{
+
+.main-header div {
   margin: 1rem;
   position: relative;
 }
 
-.main-header-h1 {
+.main-header h1 {
   margin: 0;
   padding: 0;
 }
 
-.main-header-p {
+.main-header p {
   margin-bottom: 0;
   margin-top: 0.2rem;
+  /*display: none;*/
+  visibility: hidden;
 }
-.main-menu{
-  border: 1px solid;
-  border-radius: 5px;
-  width:fit-content;
-  position:absolute;
-  top:1px;
-  right: 1rem;
-
+.main-header:hover p
+{
+  /*display:initial;*/
+  visibility: hidden;
 }
-menu ol ; main ul{
-  list-style:none;
+.menu ol, .menu ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-    
-  }
-  menu a{
-    color:inherit,
-    text-decoration: nome;
-  }
-.main-menu li{
-  display:inline-block;
-
 }
-.main-menu a{
-  
+
+.menu a {
+  color: inherit;
+  text-decoration: none;    
+}
+
+.main-menu {
+  border: 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  position: absolute;
+  top: 2px;
+  right: 1rem;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu a {
   display: block;
-padding: 1rem;
+  padding: 1rem;
 }
 
 .content-wrapper {
   margin: 2rem;
+  overflow: auto;
+}
+/*.content-wrapper::after
+{
+  content: "",
+  display: block;
+  clear: both;
+}*/
+
+
+
+.main-conter{
+  width: 70%;
+  float: left;
+  background-color: bisque;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+
+}
+.main-aside {
+  width: 30%;
+  float: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+background-color: dimgray
+
+}
+clearfix {
+  clear: both;
+  margin-bottom: 2rem;
 }
 
 .main-footer {
@@ -65,11 +107,13 @@ padding: 1rem;
   padding-bottom: 1.5rem;
   text-align: center;
 }
-.social-menu{
+
+.social-menu {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2rem,
+  font-size: 1.5rem
 }
-.social-menu li {
 
+.social-menu li {
+  display: inline;
 }
