@@ -22,3 +22,33 @@ p{
 .image-warpper-75 {
     width: 75%;
 }
+.clearfix {
+
+    border-top: 1px solid
+}
+.fondos{
+    height: 100vh;
+    position: relative; 
+    
+    background-color: #468ce1;
+   /* padding: 2rem;*/
+    background-image: url("../assets/3boats.jpg");
+    background-repeat: no-repeat;
+   /* background-size: 100%;(cover y cien porcien son iguales que da mejor cover*/
+  /* background-size: contain;*/
+     background-size: cover;
+     background-blend-mode: soft-light;
+     
+    
+    
+   
+
+}
+
+.fondos h2{
+    text-align: center;
+        padding: 25vh;
+        /*color: #f12524;*/
+        color: aliceblue;
+        
+} 
