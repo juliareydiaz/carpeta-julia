@@ -1,0 +1,24 @@
+img {
+    width: fit-content;
+    max-width: 100%;
+
+}
+p{
+    text-align: justify
+}
+
+
+.image-warpper -50 {
+    width: 50%;
+    /*float: left;
+    margin-right: 1rem;*/
+    float:right;
+    max-resolution: left 1rem;
+}
+
+.image-warpper -25 {
+    width: 25%;
+}
+.image-warpper -75 {
+    width: 75%;
+}
