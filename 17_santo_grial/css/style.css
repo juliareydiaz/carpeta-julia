@@ -91,6 +91,19 @@ body {
   background-color: gainsboro;
   border: 1px solid
 }
+/*css de la tabla*/
+table {
+  width: 100%;
+  empty-cells: hide;
+  border-collapse: collapse;
+}
+table:hover{
+  border-collapse: separate;
+}
+td,th{
+  border: 1px solid;
+}
+
 
 /*css footer*/
 
