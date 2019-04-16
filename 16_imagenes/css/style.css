@@ -8,17 +8,17 @@ p{
 }
 
 
-.image-warpper -50 {
+.image-warpper-50 {
     width: 50%;
     /*float: left;
     margin-right: 1rem;*/
     float:right;
-    max-resolution: left 1rem;
+    margin-left: 1rem;
 }
 
-.image-warpper -25 {
+.image-warpper-25 {
     width: 25%;
 }
-.image-warpper -75 {
+.image-warpper-75 {
     width: 75%;
 }
