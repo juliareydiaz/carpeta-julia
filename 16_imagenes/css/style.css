@@ -1,54 +1,68 @@
 img {
-   /* width: fit-content;*/
+    /* width: fit-content; */
     max-width: 100%;
-
-}
-p{
-    text-align: justify
 }
 
+p {
+    text-align: justify;
+}
 
-.image-warpper-50 {
+.image-wrapper-50 {
     width: 50%;
-    /*float: left;
-    margin-right: 1rem;*/
+    /* float: left;
+    margin-right: 1rem; */
     float: right;
     margin-left: 1rem;
 }
 
-.image-warpper-25 {
+.image-wrapper-25 {
     width: 25%;
 }
-.image-warpper-75 {
+
+.image-wrapper-75 {
     width: 75%;
 }
+
 .clearfix {
-
-    border-top: 1px solid
+    clear: both;
+    border-top: 1px solid gainsboro
 }
-.fondos{
-    height: 100vh;
-    position: relative; 
-    
-    background-color: #468ce1;
-   /* padding: 2rem;*/
-    background-image: url("../assets/3boats.jpg");
+
+
+/* .fondos {
+    height: 100vh;    
+    background-color: #468CE1;
+    background-image: url(../assets/3boats.jpg);
     background-repeat: no-repeat;
-   /* background-size: 100%;(cover y cien porcien son iguales que da mejor cover*/
-  /* background-size: contain;*/
-     background-size: cover;
-     background-blend-mode: soft-light;
-     
-    
-    
-   
+    background-size: contain;
+    background-size: cover;
+    background-blend-mode: soft-light;
+} */
 
+.fondos {
+    height: 100vh; 
+    position: relative;
+    
 }
 
-.fondos h2{
+.fondos::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    
+    background-color: #468CE1;
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    /*echo en clase el miercoles */
+}
+
+.fondos h2 {
     text-align: center;
-        padding: 25vh;
-        /*color: #f12524;*/
-        color: aliceblue;
-        
-} 
+    padding-top: 25vh;
+    color: #F12524;
+}
