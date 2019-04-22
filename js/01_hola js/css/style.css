@@ -1,0 +1,11 @@
+section{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+item-flex{
+    background-color: rgb(250, 128, 114,8.2);
+    text-align: center;
+    padding: 2rem;
+}
