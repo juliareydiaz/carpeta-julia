@@ -1,6 +1,7 @@
 function suma(x, y) {
-    let r = x + y
-    return r
+    /*let r = x + y
+    return r*/
+    return x+y
 }
 
 function mostrar(texto) {

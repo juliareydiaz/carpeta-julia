@@ -7,12 +7,14 @@ function duplicar(x) {
     x = x * 2
     return x
 }
+ref1={nombre: 'Pepe', edad: 23}
 
-
-let user = {nombre: 'Pepe', edad: 23}
-matricular(user)
-console.log(user)
-
-function matricular(obj) {
-    obj.curso = 'JavaScript'
+let user1 = ref1
+matricular(user1,'html')
+console.log(user1)
+let user2={nombre: 'rosa'}
+matricular(user2)
+console.log(user2)
+function matricular(obj , curso='JavaScript') {
+    obj.curso = curso
 }
