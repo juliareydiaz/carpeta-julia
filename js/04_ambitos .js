@@ -1,52 +1,53 @@
-`use strict`
+'use strict'
 
-//ambitos oscope de las variables
+// Ambitos o scope de las  variables
 
-//ambito global
-
-let var1=20;
+// Ambito global
+let var1 = 20;
 prueba()
 
-//muy mala paractica
-//no se acede nunca a las variables globales desde las funciones
-function prueba(){
+
+// MUY MALA PRACTICA
+// No se accede nunca a las variables globales desde las funciones
+function prueba() {
     console.log(var1)
 }
 
 
-//lo mismo con buenas practicas
-let var2 = 30;
+// Lo mismo con BUENAS PRACTICAS
+
+let var2 = 30
 pruebaBien(var2)
+
+
 
 function pruebaBien (x) {
     console.log(x)
 }
 
-//nuevo en es6 usar let en lugar de var
+// Nuevo en ES6 usar let en lugar de var
 
-
-function condicional (){
-    let ext =22;
-    
-    if(true){
-        let data=23;
-        Console.log(ext)
-        console.log (data)
+function condicional() {
+    let ext = 22
+    if(true) {
+        let data = 23
+        console.log(ext)
+        console.log(data)
+        }
+    console.log(ext)
+    // console.log(data) // daría un error
     }
     
-    Console.log(ext)
-   // console.log (data) daria un error
-}
 condicional()
 
+
 let x = 12
-function otraPrueba (){
-    let  x =23;
-   //x=23
-   console.log(`dentro de la funcion x vale `,x)
-   
+
+function otraPrueba () {
+    let x = 23    
+    //x = 23
+    console.log('Dentro de la función x vale ', x)
 }
 
 otraPrueba()
-
-console.log ( `fuera de la funcion x vale`,x)
+console.log('Fuera de la función x vale ', x)

@@ -1,51 +1,63 @@
-// enEs6 se utilizan lest y cont para declarar variables
+// En ES6 se utizan let y const para declarar variables
 
-let nombre //declarar
-nombre= "pepe"//inicializar
-let edad = 34  //declarar y inicializar
+let nombre // Declarar
+nombre = 'Pepe' // Inicializar
+
+let edad = 34 // Declarar e inicializar
+
+// Tipos de datos
+/* en otros lenguajes hay declaracion explicita y obligatoria de tipos
+int "x"-> variable x de tipo entero sin valos
+
+e js los tipos son 
+-debiles -no se declaran explicitamente :son implicitos al valor
+-dinamicos-:pueden cambiar
 
 
-//tipos de datos 
 
 
-//undifend
 
-let data 
-console.log (data)
+*/
+
+
+// undefined
+let data
+console.log(data)
 console.log(typeof data)
 
-//A-datos primitivos
-//strings /*cadena de caracteres*/
- data = "hola amigo"
-console.log (data)
+
+// A - DATAS Primitivos
+
+// strings
+data = 'Hola amigos'
+console.log(data)
 console.log(typeof data)
 
-
-//numbres
-data="35"
-console.log (data)
+// numbers
+data = 35
+console.log(data)
 console.log(typeof data)
 
-//booleans
-data=true
-data=false
-console.log (data)
+// booleans
+data = true
+data = false
+console.log(data)
 console.log(typeof data)
 
-//b datos referenciados
+// B - Datos referenciados
 
-//object
-data ={ name:"pepe",age:34 }
-console.log (data)
+// object
+data = { name: 'Pepe', age: 34}
+console.log(data)
 console.log(typeof data)
-//object tipo array 
-data=[23,45,78]
-data=["lunes","martes",23,78,true,undefined,{}]
-console.log (data)
-console.log(typeof data)
-//funciones
 
-function mostrar (params) {}
+// object tipo array
+data = [23, 45, 78]
+data = ['Lunes', 'Martes', 23, 78, true, undefined, {}]
+console.log(data)
+console.log(typeof data)
+
+function mostrar() {}
 
 console.log(mostrar)
 console.log(typeof mostrar)
