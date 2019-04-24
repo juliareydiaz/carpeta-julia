@@ -1,77 +1,72 @@
-//asignacion
+// Asignacion
 
-let x=23
-//x=x+1
+let x = 23
+// x = x + 1
 x++
-//x= x-1
+// x = x - 1
 x--
 
-//aritmeticos
-
+// Aritmeticos
 let y = 2
 
-let 
-r= x + y //25
-r= x - y //21
-r= x * y //46
-r= x / y //11.5
-r=parseInt(x/y) //11
-//r=Math.round()
-//r=Math.ceil()
-//r=Math.floor()
-r=x % y
+let r
+r = x + y // 25
+r = x - y  // 21
+r = x * y // 46
+r = x / y // 11.5
+r = parseInt( x / y) // 11
+// r = Math.round()
+// r = Math.floor()
+// r = Math.ceil()
+r = x % y
+console.log('Resultado', r)
 
-console.log('resultado',r)
- y =2
-y+=3
-//y=y+3
-y-=3
-// y =y-3
-y*=2
-y/=3
-y%=3
+y = 2
+y += 3
+// y = y + 3
+y -= 3
+// y = y - 3
+y *= 2
+y /= 3
+// y = y % 2
+y %= 2
 
-//operador ternario
 
+// operador ternario
 let edad = 15
-let i 
-if(edad >=18){
-    i=0
+let i
+if ( edad >= 18 ) {
+    i = 0
+} else {
+    i = 1
 }
-else{
-    i=1
+
+
+edad = 25
+i = (edad >= 18) ? 0 : 1
+console.log('Indice', i)
+
+// Objetos en Notacion JSON
+let user = {
+    nombre: 'Pepe',
+    edad : 23
 }
-edad=25
- i=(edad >=18)?0:1
- console.log ('indice',i)
+console.log(user)
 
- //objetos en notacion json
-  let user ={
-     nombre:'pepe',
-     edad:23,
- }
-console.log (user)
+// Arrays
+let numeros = [12, 45, 67]
+let usuarios = ['Pepe', 'Juan', 'Rosa', 'Maria']
+console.log(usuarios[0])
+usuarios[ usuarios.length] = 'Ramon'
+usuarios[ usuarios.length] = 'Carolina'
+usuarios[100] = 'Ernesto'
+console.log( usuarios.length )
 
- //arrays muy importante
-  let numeros=[12,25,67]
-  let usuarios=['pepe','juan','rosa','maria']
-  console.log(usuarios[0])
-  usuarios[usuarios.length]='ramon'
-  usuarios[usuarios.length]='carolina'
-  usuarios[100]='ernesto'
-console.log (usuarios.length)
+// Mensajes al usuario
 
-//mensajes al usuarios
-
-let mensajes=[
-    'bienvenido al casino',
-    'no se admiten menores',
+let mensajes = [
+    'Bienvenido al casino',
+    'No se admiten mebnores de edad'
 ]
-console.log(mensajes[1])
 
-//ejemplo de booleano 
-//let=23
-//Boolean(x)
-//!!x
-
-//var1 && (var2 || var3)
+console.log(mensajes[i])

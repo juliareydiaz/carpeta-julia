@@ -1,58 +1,54 @@
-/*condicionales de js
-if(condicion){
-//codigo
+/*
+
+Condicionales en JS
+
+if(condicion) {
+    // codigo
 }
 
-if(condicion){
-    //codigoa
-    }
-    else{
-        //codigo b
-    }
-   
-    
-    if(condicion){
-        //codigo A
-        }
-        else if (condicion2) {
-            //codigo B
-        }
-        else{ 
-            //codigo c
-        }*/
+if(condicion) {
+    // codigo A
+} else {
+    // codigo B
+}
 
-letx =3
-x=5
-x='3'
+if(condicion) {
+    // codigo A
+} else if (condicion2) {
+    // codigo B
+} else {
+    // codigo C
+} 
 
-//comparacion igual que es 2 ==
-//comparacion identico (en valor  y tipo )===
-//comparacion distinto !=
-//comparacion no identico !==
-//casting a boolean
-//valores falsy -> false
-x=false
-x=undefined
-x=''
-x=NaN
-x=Infinity
-x=0
-x= null
+*/
 
-//valores truly->true
-x=true
-x=25
-x='pepe'
-x={}
-x=[]
-x= function(){}
+let x = 3
+x = 5
+x = '3'
 
+// Comparacion igual  ==
+// comparacion idéntico (en valor y tipo) ===
+// comparacion distinto !=
+// comparació no-idéntico !==
 
+// Casting a boolean
+// Valores falsy -> false
+x = false
+x = undefined
+x = ''
+x = NaN
+x = 0
+x = null
+// Valores truly -> true
+x = true
+x = 25
+x = 'Pepe'
+x = {}
+x = []
+x = function () {}
 
-        if (x ){
-            console.log('es verdadero')
-            
-        }
-        else{
-            console.log ('es flaso')
-        }
+if( x ) {
+   console.log('Es verdadero')
+} else {
+    console.log('Es falso')
+}
