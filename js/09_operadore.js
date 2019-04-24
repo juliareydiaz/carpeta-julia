@@ -67,4 +67,11 @@ let mensajes=[
     'bienvenido al casino',
     'no se admiten menores',
 ]
-console.log(mensajes[y])
+console.log(mensajes[1])
+
+//ejemplo de booleano 
+//let=23
+//Boolean(x)
+//!!x
+
+//var1 && (var2 || var3)
