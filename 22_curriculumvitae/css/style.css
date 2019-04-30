@@ -37,7 +37,7 @@ article p, h1, h2, h3,{
 article p{
     width: 50%;
     display: inline-block;  
-    border: 1px solid red;
+    border: 2px solid red;
     vertical-align:middle;
 }
  
