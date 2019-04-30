@@ -21,14 +21,14 @@ article img{
 }
 
 article img{
-    float: right;
+    float: right
 }
-article p, h1, h2, h3, {
-    float: left;
+article p, h1, h2, h3{
+    float:left
 }
 
  
-article p,p1,{
+article {
     width: 50%;
     display: inline-block;  
     border: 1px solid red;
