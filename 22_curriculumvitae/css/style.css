@@ -10,25 +10,31 @@ body {
    background-color:rgb(216, 216, 135)
 }
 
+img {
+    border:2px;
+    margin: 30px;
+    padding: 50px;
 
+
+}
     
  
 article img{    
     border: 1px solid #fff; 
     background-color: #ff7700;
-    width: 75%; 
-    padding: 5px;   
+    width: 90%; 
+    padding: 25px;   
 }
 
 article img{
-    float: right
+    float: right;
 }
-article p, h1, h2, h3{
+article p, h1, h2, h3,{
     float:left
 }
 
  
-article {
+article p{
     width: 50%;
     display: inline-block;  
     border: 1px solid red;
@@ -44,7 +50,20 @@ p1.resaltado {
     background-color:red;
     color: rgb(18, 50, 230)}
 
-    aside li{
-        
-    color: rgb(230, 18, 36)
+    
+    li{
+        border:2px;
+        margin: 20px;
+        padding: 20px;
+    
     }
+    footer{ 
+         border:8px;
+        margin: 30px;
+        padding: 30px;
+
+    }
+    li,.resaltado {
+        background-color: rgb(227, 252, 0);
+        color:rgb(230, 50, 18)}
+    
