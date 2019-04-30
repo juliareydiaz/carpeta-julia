@@ -1,0 +1,43 @@
+h1,h2,h3,.resaltado {
+    background-color: lawngreen;
+    color: rgb(124, 18, 230)}
+
+body {
+    border:20px;
+    margin: 30px;
+    padding: 50px;
+
+   background-color:rgb(216, 216, 135)
+}
+
+
+    
+ 
+article img{    
+    border: 1px solid #fff; 
+    background-color: #ff7700;
+    width: 75%; 
+    padding: 5px;   
+}
+
+article img{
+    float: right;
+}
+article p, h1, h2, h3, {
+    float: left;
+}
+
+ 
+article p{
+    width: 50%;
+    display: inline-block;  
+    border: 1px solid red;
+    vertical-align:middle;
+}
+ 
+article img{
+    width: 20%;
+    border: 1px solid #fff;
+   vertical-align:middle;
+}
+ 
