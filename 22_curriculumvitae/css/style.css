@@ -28,7 +28,7 @@ article p, h1, h2, h3, {
 }
 
  
-article p{
+article p,p1,{
     width: 50%;
     display: inline-block;  
     border: 1px solid red;
@@ -40,4 +40,11 @@ article img{
     border: 1px solid #fff;
    vertical-align:middle;
 }
- 
+p1.resaltado {
+    background-color:red;
+    color: rgb(18, 50, 230)}
+
+    aside li{
+        
+    color: rgb(230, 18, 36)
+    }
