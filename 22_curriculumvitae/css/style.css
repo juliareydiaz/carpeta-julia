@@ -1,4 +1,7 @@
 h1,h2,h3,.resaltado {
+    border:2px;
+    margin: 3px;
+    padding: 1px;
     background-color: lawngreen;
     color: rgb(124, 18, 230)}
 
@@ -14,8 +17,6 @@ img {
     border:2px;
     margin: 30px;
     padding: 50px;
-
-
 }
     
  
@@ -35,7 +36,7 @@ article p, h1, h2, h3,{
 
  
 article p{
-    width: 50%;
+    width: 60%;
     display: inline-block;  
     border: 2px solid red;
     vertical-align:middle;
