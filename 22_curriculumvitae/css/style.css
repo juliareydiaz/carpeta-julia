@@ -30,7 +30,7 @@ article img{
 article img{
     float: right;
 }
-article p, h1, h2, h3,{
+article p+ h1+ h2+ h3{
     float:left
 }
 
