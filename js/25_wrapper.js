@@ -1,39 +1,29 @@
-function main(){
-    let cadena='hola amigo'
-    let alumno={
-        saludar:function(){}
+function main()  {
+    let cadena = 'Hola amigo'
+    let alumno = {
+        saludar: function() {}
     }
-    //letalumno =new object()
-    let users=['pepe','elena','julia']
-    //let users=new Array()
-
+    // let alumno = new Object()
+    let users = ['Pepe', 'Elena', 'Julia']
+    // let users = new Array()
     console.log(typeof users)
-    //en otros lenguajes tolowerCsase(cadena)
-  
-  
-    console.log(cadena.toLowerCase()) 
-   
-    //let cadena temp=new string()  
-    console.log(cadena.length) 
-let acadena=cadena.split(' ')
- let cadenaSinespacios = acadena.join ('')
- cadena =cadena.toUpperCase().split(' ').join('').toUpperCase()
-console.log(cadena)
+    // EN OTROS LENGUAJES toLowerCase(cadena)
+    console.log(cadena.toLowerCase())
+    // let cadenaTemp = new String()
+    console.log(cadena.length)
+    let aCadena = cadena.split(' ')
+    let cadenaSinEspacios = aCadena.join('')
+    cadena = cadena.split(' ').join('').toUpperCase()
+    console.log(cadena)
+    
+    let url ='https://www.cife.es/alumnos/ingresos/pepito'
+    
+    let urlTemp = url.slice(url.indexOf('//')+2)
+    urlTemp = urlTemp.slice(0, urlTemp.indexOf('/') )
+    //console.log(urlTemp)
+    console.log(url.split('/')[2])
 
-
-let url='https://www.cife.es/alumnos/ingresos/pepito'
-
-let urltem=url.slice(url.indexOf('//')+2)
-
-let urltem=urltem.slice(0,urltem.indexOf('/'))
-//console.log(urltem)
-
-let aUrl =url.split('/')
-console.log(url.split('/')[2])
-console.log(url[12])
-
-
+    console.log(url[12])
 }
-
 
 main()
