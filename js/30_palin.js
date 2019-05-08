@@ -1,39 +1,43 @@
 /**
- * comprobar si una frase sin acentos es palindromo 
- * se lee igual en ambos sentidos ,sin contar los espacios
- * la rutanosnos aporto otro pasonatural
- * atar ala rata
+ * Comprobar si una frase SIN ACENTOS es un palíndromo
+ * Se lee igual en ambos setidos, sin contar los espacios
+ * por ejemplo
+ * La ruta nos aportó otro paso natural
+ * Atar a la rata...
  */
 
  /**
-  * function ispali
-  * @param cadena :string
-  * @retrun:boolean
+  * function isPali
+  * @param cadena: string
+  * @return: boolean
   */
-function ispalin(cadena='') {
-    let r=true
-    let cadenaSinEspacios=cadena.split(' ').join('').toLocaleLowerCase()
-    //console.log(cadenaSinEspacios)
-    let cadenainversa= cadenaSinEspacios.split('').reverse().join('')
-    // console.log(cadenainversa)
 
-     if(cadenaSinEspacios !== cadenainversa ){
-          r = false
-        }
-     
+ function isPali(cadena = '') {
+    let r = true
+    let cadenaSinEspacios = cadena.split(' ').join('').toLowerCase()
+    // console.log(cadenaSinEspacios)
+    let cadenaInversa = cadenaSinEspacios.split('').reverse().join('')
+    // console.log(cadenaInversa)
+    if (cadenaSinEspacios !== cadenaInversa ) {
+        r = false
+    }
     return r
 }
 
-(function(){
-    let texto=[
-    'esto no es un palindro',
-    'la rutanosnos aporto otro paso natural',
-    'atar ala rata'
-    ]
+function isPaliShort(cadena = '') {
+return cadena.split(' ').join('').toLowerCase() === cadena.split(' ').join('').toLowerCase().split('').reverse().join('') ? true: false
+}
 
-for (let i = 0; i < texto.length; i++) {
-    const texto = texto [i];
+(function () {
+let textos = [
+    'Esto no es un palíndromo',
+    'La ruta nos aporto otro paso natural',
+    'Atar a la rata'
+]
+for (let i = 0; i < textos.length; i++) {
+    const texto = textos[i];
     console.log(texto)
-    console.log(ispalin(texto))
+    console.log(isPaliShort(texto))
 }
 })()
+
