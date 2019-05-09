@@ -1,32 +1,30 @@
-let user ={
-nombre:'pepe',
-edad:23,
-curso: 'front'
+let user = {
+    nombre : 'Pepe',
+    edad : 23,
+    curso : 'Front'
 }
+
 console.log(user)
 
-//let userstring = {nombre:'pepe',edad:23,curso: 'front'}
-let cadena= JSON.stringify(user)
+// let userString = "{nombre : 'Pepe', edad : 23, curso : 'Front'}"
 
+let cadena = JSON.stringify(user)
 console.log(cadena)
-console.log(JSON.stringify(cadena))
 
+console.log(JSON.parse(cadena))
 
+let alumno1 = {
+    nombre : 'Elena',
+    edad : 28,
+    curso : 'JavaScript'
+} 
 
-let alumno1={
-    nombre:'elena',
-    edad:28,
-    curso: 'javascript'
-    }
-    alumno2 =JSON.parse(JSON.stringify(alumno1))
-    alumno2.nombre='carlos'
-    alumno2.curso='diseño'
+alumno2 = JSON.parse(JSON.stringify(alumno1))
+alumno2.nombre = 'Carlos'
 
-    alumno3 =Object.assign({},alumno1)
-    alumno3.nombre='raul'
-    
-    
-    
-    console.log(alumno1)
-    console.log(alumno2)
-    console.log(alumno3)
+alumno3 = Object.assign({}, alumno1)
+alumno3.nombre = 'Raul'
+
+console.log(alumno1)
+console.log(alumno2)
+console.log(alumno3)

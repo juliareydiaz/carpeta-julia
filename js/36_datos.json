@@ -1,3 +1,5 @@
-"nombre":"pepe",
-"edad":23,
-"curso": "front"
+{
+    "nombre" : "Pepe",
+    "edad" : 23,
+    "curso" : "Front"
+}
