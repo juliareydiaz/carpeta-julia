@@ -21,6 +21,7 @@ class Item  {
 
 class Factura {
     constructor  (cliente, tipoIVA, formaPago) {
+        
         this.cliente = cliente
         this.items = []
         this.tipoIVA = tipoIVA
