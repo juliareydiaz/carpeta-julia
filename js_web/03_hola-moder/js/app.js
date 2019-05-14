@@ -31,9 +31,8 @@ window.onload = function () {
     let datos = [1,2,3,4,5]
     console.log( datos.map(cuadrados) )
 
-    document.querySelector('#btn-saludar').onclick = saludar
-    // document.querySelector('button:nth-of-type(2)').onclick = despedirse
-    document.querySelector('#btn-despedirse').onclick = despedirse
-    document.querySelector('#div-raton').onmouseover = onMouseOver
-    document.querySelector('#div-raton').onmouseout = onMouseOut    
+    document.querySelector('#btn-saludar').addEventListener("click",saludar) 
+    document.querySelector('#btn-despedirse').addEventListener("click",despedirse) 
+    document.querySelector('#div-raton').addEventListener("mouseover" , onMouseOver)   
+    document.querySelector('#div-raton'). addEventListener("mouseout" ,onMouseOut )    
 } 
