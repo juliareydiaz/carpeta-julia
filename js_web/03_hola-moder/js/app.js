@@ -26,13 +26,20 @@ function cuadrados(item) { return item * item}
  * Accesos al DOM (Document Object Model)
  */
 
-window.onload = function () {
+// window.addEventListener('load') 
 
+function main () {
     let datos = [1,2,3,4,5]
     console.log( datos.map(cuadrados) )
 
-    document.querySelector('#btn-saludar').addEventListener("click",saludar) 
-    document.querySelector('#btn-despedirse').addEventListener("click",despedirse) 
-    document.querySelector('#div-raton').addEventListener("mouseover" , onMouseOver)   
-    document.querySelector('#div-raton'). addEventListener("mouseout" ,onMouseOut )    
-} 
+    document.querySelector('#btn-saludar').addEventListener('click', saludar)   
+    document.querySelector('#btn-despedirse').addEventListener('click', despedirse)
+    document.querySelector('#div-raton').addEventListener('mouseover', onMouseOver)
+    document.querySelector('#div-raton').addEventListener('mouseout', onMouseOut)
+}
+
+(function () {
+    document.addEventListener('DOMContentLoaded', main) 
+})()
+
+
