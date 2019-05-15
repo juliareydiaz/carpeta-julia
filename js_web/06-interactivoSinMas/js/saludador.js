@@ -7,28 +7,40 @@ export function main () {
   let inNombre = document.querySelector('#in-nombre')
   let btnSaludar = document.querySelector('#btn-saludar')
   let btnDespedirse = document.querySelector('#btn-despedirse')
-  
+  let btnborrar=document.querySelector('#btnborrar')
+  let output=document.querySelector('#output')
+
   
   /**Asignar manejadores a los nodos */
   btnSaludar.addEventListener('click', saludar)
+  btnDespedirse.addEventListener('click', despedirse)
+  btnborrar.addEventListener('click',borrar )   
   /* btnSaludar.addEventListener('click', () => {
           aQuien = inNombre.value
           console.log(msg[0] + aQuien)
   }) */
-  btnDespedirse.addEventListener('click', despedirse)
-
+  
   function saludar () {
-      aQuien = inNombre.value
-      console.log(msg[0] + aQuien)
+    if(inNombre.value){
+      aQuien = <b>+ inNombre.value+ </b>
+     output.innerHTML=msg[0]+aQuien
+    }
   }
 
   function despedirse() {
-      aQuien = inNombre.value
-      console.log(msg[1] + aQuien)
+    if( inNombre.value){
+      aQuien = <b>+ inNombre.value+ </b>
+       output.innerHTML=msg[1]+aQuien
+    }
+  }
+  borrar(){
+    let.output.innerHTML=''
+    let.inNombre.value=''
   }
 
+
 }
-  
+
 
 
 
