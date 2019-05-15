@@ -1,5 +1,3 @@
+import { main } from './saludador.js'
 
-import {main} from './saludador.js'
-
-
-document.addEventListener('DOMContentLoaded',main)
+document.addEventListener('DOMContentLoaded', main )
