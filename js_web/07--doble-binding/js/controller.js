@@ -1,32 +1,29 @@
-export function controller(){
-    
-    console.log ('controller cargado')
-   
-    let nombre=''
-    let msgInicial=''
+export function controller () {
 
-     /**nodos del DON */
+    console.log('Controller cargado')
 
-    const inNombre =document.querySelector('#in-nombre')
+    let nombre = ''
+    let msgInicial = ''
+
+    /** Nodos del DOM */
+    const inNombre = document.querySelector('#in-nombre')
     const btnBorrar = document.querySelector('#btn-borrar')
-    const output =document.querySelector('#output')
+    const output = document.querySelector('#output')
 
-    msgInicial=output.innerHTML + ''
+    msgInicial = output.innerHTML + ' '
 
-/**asignar manejador de eventos */
-inNombre.addEventListener('input', onInputNombre)
-btnBorrar.addEventListener('click',borrar)
+    /** Asignar manejadores de eventos */
+    inNombre.addEventListener('input', onInputNombre)
+    btnBorrar.addEventListener('click', borrar)
 
-function onInputNombre (){
-nombre = inNombre.value
-output.innerHTML = msgInicial + nombre.toUpperCase()
+    function onInputNombre() {
+        nombre = inNombre.value
+        output.innerHTML = msgInicial + nombre.toUpperCase()
+    }
 
-}
-
-function borrar(){
-
-}
-
-
+    function borrar() {
+        inNombre.value = ''
+        onInputNombre()
+    }
 
 }
