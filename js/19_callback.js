@@ -28,7 +28,12 @@ function mostrarResultado(x = 0, y = 0, nombre, operacion) {
 // mostrarResultado(11, 12, function (x,y) {return x + y})
 mostrarResultado(11, 12, 'suma', (x, y) =>  x + y)
 mostrarResultado(11, 12, 'resta', (x, y) =>  x - y)
- 
+/*mostrarResultado(11, 12,'multiplicar', function (x,y){return x*y} )*/
+mostrarResultado(11, 12,'multiplicar', (x,y) => x*y )
+
+
+let aDatos=[1,2,3,4,6]
+let aClon=aDatos. map(x=>x/2)
  
 
  
