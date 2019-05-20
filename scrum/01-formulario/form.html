@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alejandro Cerezo">
+    <meta name="description" content="Ejercicios del curso Desarrollo Front en CIFE">
+    <meta name="keywords" content="Web, HTML, desarrollo front">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario - Curso Front</title>
+    <!-- <style>
+        body {background-color: bisque}
+    </style> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        console.log('Hola mundo')
+    </script>
+    <script src="./js/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Elementos de HTML 🔥 αβ</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#bloques">Bloques</a></li>
+                <li><a href="./index.html#en_linea">En-linea</a></li>
+                <li><a href="./mmedia.html">Multimedia</a></li>
+                <li><a href="#">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-wrapper">
+        <main>
+            <section id="form">
+                <header>
+                    <h2>Formulario</h2>
+                </header>
+                <p>Están disponibles los siguientes controles</p>
+                <ul>
+                    <li>input - text</li>
+                    <li>text area</li>
+                    <li>checkbox</li>
+                    <li>radio butons</li>
+                    <li>select / options</li>
+                    <li>botones</li>
+                </ul>
+                <h3>Ejemplo de formulario</h3>
+                <form action="https://jsonplaceholder.typicode.com/users" method="post">
+                    <!-- <ul>
+                        <li><input type="text" name="nombre" id="nombre" placeholder="Nombre"></li>
+                        <li><input type="email" name="email" id="email" placeholder="Correo"></li>
+                        <li><button type="submit">Enviar</button></li>
+                    </ul> -->
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" 
+                                placeholder="Escribe nombre y apellidos" required minlength="3">
+                        </div>
+                        <div>
+                            <label for="email">Correo</label>
+                            <input type="email" name="email" id="email" placeholder="Correo" required>
+                        </div>    
+                        <div>
+                            <label for="passwd">Contraseña</label>
+                            <input type="password" name="passwd" id="passwd" required maxlength="4">
+                        </div>
+                        <div>
+                            <label for="coments">Comentarios</label>
+                            <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+                        </div>                    
+                    </fieldset>
+                    <fieldset>
+                        <legend>Condiciones</legend>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi expedita voluptatibus quisquam praesentium vero nemo laborum ratione. Autem esse voluptates quasi ad, voluptatem repellendus illo aperiam amet reprehenderit quod velit.</p>
+                        <div>
+                            <input type="checkbox" name="aceptado" id="aceptado" required>
+                            <label for="aceptado">Estoy deacuerdo con las condiciones</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos del curso</legend>
+                        <div>
+                            <label for="curso">Curso</label>
+                            <select name="curso" id="curso" required>
+                                <option value="">&nbsp;</option>
+                                <optgroup label="Front">
+                                    <option value="HTML">HTML</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="JS">JavaScript</option>
+                                </optgroup>
+                                <optgroup label="Back">
+                                    <option value="JV">Java</option>
+                                    <option value="Node">NodeJS</option>                                    
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Sede</p>
+                            <input type="radio" name="sede" id="madrid" value="MD" required>
+                            <label for="madrid">Madrid</label>
+                            <input type="radio" name="sede" id="barna" value="BN">
+                            <label for="barna">Barcelona</label>
+                            <input type="radio" name="sede" id="cadiz" value="CD">
+                            <label for="cadiz">Cádiz</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <aside id="publici">
+            <p>Publicidad</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nostrum officia quidem accusantium illo unde voluptatibus accusamus architecto incidunt optio! Quasi quis magni quae rerum quam numquam exercitationem vero officia?</p>
+        </aside>         
+    </div>
+    <footer>
+        <address>julia rey diaz - © CIFE</address>
+    </footer>
+</body>
+</html>
